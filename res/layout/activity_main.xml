@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/header_gradient" >
+
+            <!-- Logo Start -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/atm" />
+            <!-- Logo Ends -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#736f6e"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/screen_home_gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/background"
+                android:columnWidth="80dp"
+                android:gravity="fill_vertical|fill_horizontal"
+                android:isScrollContainer="true"
+                android:numColumns="3"
+                android:paddingTop="20dp"
+                android:scrollbars="vertical"
+                android:smoothScrollbar="true"
+                android:stretchMode="columnWidth" >
+            </GridView>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Footer Ends -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@layout/footer_repeat" >
+    </LinearLayout>
+
+</RelativeLayout>

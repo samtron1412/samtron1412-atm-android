@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "list_bank">
+        <item>AGRIBANK</item>
+        <item>TECHCOMBANK</item>
+        <item>DONGABANK</item>
+        <item>VIETTINBANK</item>
+        <item>VIETCOMBANK</item>
+    </string-array>
+    <string-array name = "list_district">
+        <item>HOAN KIEM</item>
+        <item>THANH XUAN</item>
+        <item>DONG DA</item>
+    </string-array>
+</resources>
